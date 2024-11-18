@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente Livre - Agendamento</title>
+    <link rel="stylesheet" href="agendamento.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <main class="appointment-container">
+        <header class="appointment-header">
+            <button class="back-button" aria-label="Voltar">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <h1>Agendamento</h1>
+        </header>
+
+        <form class="appointment-form">
+            <div class="form-group">
+                <label for="service-type">Escolha uma opção <span class="required">*</span></label>
+                <div class="select-wrapper">
+                    <select id="service-type" required>
+                        <option value="psicologia">Psicologia</option>
+                        <option value="terapia">Terapia</option>
+                        <option value="psiquiatria">Psiquiatria</option>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="professional">Profissional <span class="required">*</span></label>
+                <div class="select-wrapper">
+                    <select id="professional" required>
+                        <option value="marina">Marina Barbosa</option>
+                        <option value="joao">João Silva</option>
+                        <option value="ana">Ana Santos</option>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <section class="appointment-schedule">
+                <h2>CONSULTA PSICOLOGIA</h2>
+                
+                <div class="calendar-section">
+                    <p class="calendar-info">Visualize os dias com horários disponíveis</p>
+                    
+                    <div class="date-navigator">
+                        <button class="nav-button" aria-label="Dia anterior">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        
+                        <div class="current-date">
+                            <strong>Terça</strong>
+                            <span>10/12/2024</span>
+                        </div>
+                        
+                        <button class="nav-button" aria-label="Próximo dia">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="time-slots">
+                        <button class="time-slot">09:50</button>
+                        <button class="time-slot">11:30</button>
+                        <button class="time-slot">14:00</button>
+                    </div>
+
+                    <button type="submit" class="schedule-button">AGENDAR</button>
+                </div>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
