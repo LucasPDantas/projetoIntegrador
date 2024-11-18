@@ -1,0 +1,301 @@
+.forum,
+.forum * {
+  box-sizing: border-box;
+}
+.forum {
+  background: #ffffff;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.f-rum {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 308px;
+  top: 25px;
+}
+.arrow-back {
+  height: auto;
+  position: absolute;
+  left: 29px;
+  top: 32px;
+  overflow: visible;
+}
+.frame-2 {
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 15px 89px 15px 89px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 23px;
+  top: 98px;
+  box-shadow: 1px 2px 10px 0px rgba(217, 217, 217, 1);
+}
+.como-est-se-sentindo-hoje {
+  color: #616161;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 13px;
+  top: 15px;
+}
+.frame-6 {
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 15px 14px 15px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 384px;
+  position: absolute;
+  left: 23px;
+  top: 624px;
+  box-shadow: 1px 2px 10px 0px rgba(217, 217, 217, 1);
+}
+.frame-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.carla-souza {
+  color: #3f51b5;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+}
+.praticar-a-gratid-o-diariamente-ajuda-a-focar-no-positivo-melhorando-o-humor-e-reduzindo-a-ansiedade-ao-mudar-a-perspectiva-sobre-a-vida {
+  color: #616161;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  width: 356px;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.favorite {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: visible;
+}
+._37 {
+  color: rgba(0, 191, 154, 0.97);
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  top: 0px;
+  width: 24px;
+  height: 22px;
+}
+._11-coment-rios {
+  color: rgba(0, 191, 154, 0.97);
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  position: absolute;
+  left: 75px;
+  top: 0px;
+  width: 122px;
+  height: 22px;
+}
+.tooltip-2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 51px;
+  top: 0px;
+  overflow: visible;
+}
+.frame-7 {
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 9px 10px 9px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 356px;
+  height: 34px;
+  position: relative;
+  box-shadow: 1px 1px 4px 0px rgba(0, 191, 154, 0.25);
+}
+.adicionar-coment-rio {
+  color: #bdbdbd;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+.frame-9 {
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 15px 14px 15px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 384px;
+  position: absolute;
+  left: 23px;
+  top: 834px;
+  box-shadow: 1px 2px 10px 0px rgba(217, 217, 217, 1);
+}
+.j-lio-alex {
+  color: #ffc43d;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+}
+.favorite2 {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: visible;
+}
+.tooltip-22 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 51px;
+  top: 0px;
+  overflow: visible;
+}
+.frame-72 {
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 15px 14px 15px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 384px;
+  position: absolute;
+  left: 23px;
+  top: 398px;
+  box-shadow: 1px 2px 10px 0px rgba(217, 217, 217, 1);
+}
+.j-ssica-pereira {
+  color: #ffc43d;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+}
+.aceitar-e-n-o-julgar-suas-emo-es-sejam-positivas-ou-negativas-essencial-para-process-las-de-forma-saud-vel-e-evitar-que-se-acumulem-causando-sofrimento {
+  color: #616161;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  width: 356px;
+}
+.favorite3 {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: visible;
+}
+.tooltip-23 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 51px;
+  top: 0px;
+  overflow: visible;
+}
+.frame-8 {
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 15px 14px 15px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 384px;
+  position: absolute;
+  left: 23px;
+  top: 172px;
+  box-shadow: 1px 2px 10px 0px rgba(217, 217, 217, 1);
+}
+.marina-gomes {
+  color: #ed474a;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+}
+.o-autocuidado-integral-que-envolve-sono-adequado-alimenta-o-saud-vel-exerc-cio-f-sico-e-lazer-fundamental-para-a-sa-de-mental-e-emocional-ajudando-a-reduzir-o-estresse-e-melhorar-a-qualidade-de-vida {
+  color: #616161;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  width: 356px;
+}
+.favorite4 {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: visible;
+}
+.tooltip-24 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 51px;
+  top: 0px;
+  overflow: visible;
+}
